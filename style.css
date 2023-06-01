@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d8fac8;
+    padding: 5px 40px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+input[type="search"] {
+    width: 50%;
+    padding: 10px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: 0 0 3px 0 #000;
+}
+
+.item-check button {
+    border-radius: 5px;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: #e99b4d;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.item-check button i {
+    color: #fff;
+}
